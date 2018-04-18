@@ -159,20 +159,340 @@ network.host: 110.0.11.143
 如果想要在一台机器上启动多个节点，步骤如下：
 
 1.复制一份ELasticsearch的安装包
+
 2.修改端口，比如一个是9200，一个是9205
+
 3.删除data目录下的数据(如果是新解压的安装包就不必了)。
 
-# java API
-- 声明client
+# 数据操作
+
+## 索引一个文档（PUT）
+```$xslt
+PUT /{index}/{type}/{id}
+{
+"field": "value",
+...
+}
+```
+或者自动生成id
+```$xslt
+PUT /{index}/{type}
+{
+"field": "value",
+...
+}
+```
+例如
+```$xslt
+PUT /website/blog/123
+{
+"title": "My first blog entry",
+"text": "Just trying this out...",
+"date": "2014/01/01"
+}
+```
+返回
+```$xslt
+{
+"_index": "website",
+"_type": "blog",
+"_id": "123",
+"_version": 1,
+"created": true
+}
+```
+
+## 检索文档（GET）
+### 全部文档
+```$xslt
+GET /{index}/{type}/{id}
+```
+如
+```$xslt
+GET /website/blog/123?pretty
+```
+返回
+```$xslt
+{
+"_index" : "website",
+"_type" : "blog",
+"_id" : "123",
+"_version" : 1,
+"found" : true,
+"_source" : {
+"title": "My first blog entry",
+"text": "Just trying this out...",
+"date": "2014/01/01"
+}
+}
+```
+其中，pretty代表美化格式为json。GET请求返回的响应内容包括 {"found": true} 。这意味着文档已经找到。如果我们请求一个不存在的文档，依旧会得到一个JSON，不过 found 值变成了 false 。
+
+### 部分文档
+请求个别字段可以使用 _source 参数。多个字段可以使用逗号分隔.
+例如
+```$xslt
+GET /website/blog/123?_source=title,text
+```
+返回
+```$xslt
+{
+"_index" : "website",
+"_type" : "blog",
+"_id" : "123",
+"_version" : 1,
+"exists" : true,
+"_source" : {
+"title": "My first blog entry" ,
+"text": "Just trying this out..."
+}
+}
+```
+
+## 更新文档（PUT）
+文档在Elasticsearch中是不可变的——我们不能修改他们。如果需要更新已存在的文档，我
+们可以使用index API 重建索引(reindex) 或者替换掉它。
+例如
+```$xslt
+PUT /website/blog/123
+{
+"title": "My first blog entry",
+"text": "I am starting to get the hang of this...",
+"date": "2014/01/02"
+}
+```
+返回
+```$xslt
+{
+"_index" : "website",
+"_type" : "blog",
+"_id" : "123",
+"_version" : 2,
+"created": false <1>
+}
+```
+created为false，_version增加。
+
+## 删除文档
+```$xslt
+DELETE /website/blog/123
+```
+如果文档被找到，Elasticsearch将返回 200 OK 状态码和以下响应体
+```$xslt
+{
+"found" : true,
+"_index" : "website",
+"_type" : "blog",
+"_id" : "123",
+"_version" : 3
+}
+```
+如果文档未找到，我们将得到一个 404 Not Found 状态码，响应体是这样的：
+```$xslt
+{
+"found" : false,
+"_index" : "website",
+"_type" : "blog",
+"_id" : "123",
+"_version" : 4
+}
+```
+_version值都增加了。
+
+## 批量操作（bulk）
+请求体如下：
+```$xslt
+{ action: { metadata }}\n
+{ request body }\n
+{ action: { metadata }}\n
+{ request body }\n
+...
+```
+这种格式类似于用 "\n" 符号连接起来的一行一行的JSON文档流(stream)。两个重要的点需
+要注意：
+- 每行必须以 "\n" 符号结尾，包括最后一行。这些都是作为每行有效的分离而做的标记。
+- 每一行的数据不能包含未被转义的换行符，它们会干扰分析——这意味着JSON不能被美
+化打印。
+
+action/metadata这一行定义了文档行为(what action)发生在哪个文档(which document)之
+上。
+行为(action)必须是以下几种:
+
+|行为|解释|
+|:----------:|:----------:|
+create |当文档不存在时创建之|
+index|创建新文档或替换已有文档。见《索引文档》和《更新文档》
+update |局部更新文档。见《局部更新》
+delete |删除一个文档。见《删除文档》
+
+在索引、创建、更新或删除时必须指定文档的 _index 、 _type 、 _id 这些元数据
+(metadata)。
+例如
+```$xslt
+POST /_bulk
+{ "delete": { "_index": "website", "_type": "blog", "_id": "123" }} <1>
+{ "create": { "_index": "website", "_type": "blog", "_id": "123" }}
+{ "title": "My first blog post" }
+{ "index": { "_index": "website", "_type": "blog" }}
+{ "title": "My second blog post" }
+{ "update": { "_index": "website", "_type": "blog", "_id": "123", "_retry_on_conflict" :
+{ "doc" : {"title" : "My updated blog post"} } 
+```
+返回
+```$xslt
+{
+"took": 4,
+"errors": false, <1>
+"items": [
+{ "delete": {
+"_index": "website",
+"_type": "blog",
+"_id": "123",
+"_version": 2,
+"status": 200,
+"found": true
+}},
+{ "create": {
+"_index": "website",
+"_type": "blog",
+"_id": "123",
+"_version": 3,
+"status": 201
+}},
+{ "create": {
+"_index": "website",
+"_type": "blog",
+"_id": "EiwfApScQiiy7TIKFxRCTw",
+"_version": 1,
+"status": 201
+}},
+{ "update": {
+"_index": "website",
+"_type": "blog",
+"_id": "123",
+"_version": 4,
+"status": 200
+}}
+]
+}}
+```
+
+## 简单搜索
+```$xslt
+GET /{index}/{type}/{id}/_search?q=tweet:elasticsearch&size=&from=
+```
+关于搜索，请看另一篇文档elasticsearch搜索。
+
+# Java API
+1.声明client
 ```
 TransportClient client = TransportClient.builder().build()
         .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("host1"), 9300))
         .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("host2"), 9300));
 ```
 
-- index,get,delete,update(prepare)
-- searchapi(QueryBuilders)
-- QueryBuilders(match,term)
+2.构建json请求体，在`Document.java`里有相关方法，主要有
+- 自己构建字符串；
+- 通过map；
+- 序列化
+- 通过slasticsearch自带的工具包
+
+3.获取响应
+- index
+```$xslt
+//jsonsouce为构建的json数据源
+IndexResponse indexResponse = client.prepareIndex({index},{type}, {id}).setSource(jsonSource).get();
+```
+
+- GET
+例如
+```$xslt
+GetResponse response = client.prepareGet("twitter", "tweet", "1").get();
+```
+
+- DELETE
+```$xslt
+DeleteResponse response = client.prepareDelete("twitter", "tweet", "1").get();
+```
+
+- UPDATE
+1.构建updaterequest
+```$xslt
+UpdateRequest updateRequest = new UpdateRequest();
+updateRequest.index("index");
+updateRequest.type("type");
+updateRequest.id("1");
+updateRequest.doc(jsonBuilder()
+        .startObject()
+            .field("gender", "male")
+        .endObject());
+client.update(updateRequest).get();
+```
+2.通过prepareUpdate()获取
+```$xslt
+UpdateResponse up=client.prepareUpdate("ttl", "doc", "1")
+        .setScript(new Script("ctx._source.gender = \"male\""  , ScriptService.ScriptType.INLINE, null, null))
+        .get();
+
+UpdateResponse up=client.prepareUpdate("ttl", "doc", "1")
+        .setDoc(jsonBuilder()               
+            .startObject()
+                .field("gender", "male")
+            .endObject())
+        .get();
+```
+
+- BULK
+BulkRequest为各种基本操作的组合
+```$xslt
+BulkRequestBuilder bulkRequest = client.prepareBulk();
+
+// either use client#prepare, or use Requests# to directly build index/delete requests
+bulkRequest.add(client.prepareIndex("twitter", "tweet", "1")
+        .setSource(jsonBuilder()
+                    .startObject()
+                        .field("user", "kimchy")
+                        .field("postDate", new Date())
+                        .field("message", "trying out Elasticsearch")
+                    .endObject()
+                  )
+        );
+
+bulkRequest.add(client.prepareIndex("twitter", "tweet", "2")
+        .setSource(jsonBuilder()
+                    .startObject()
+                        .field("user", "kimchy")
+                        .field("postDate", new Date())
+                        .field("message", "another post")
+                    .endObject()
+                  )
+        );
+
+BulkResponse bulkResponse = bulkRequest.get();
+if (bulkResponse.hasFailures()) {
+    // process failures by iterating through each bulk response item
+}
+```
+
+- SEARCH
+基本格式如下
+```$xslt
+QueryBuilder qb = termQuery("multi", "test");
+
+SearchResponse scrollResp = client.prepareSearch(test)
+        .addSort(FieldSortBuilder.DOC_FIELD_NAME, SortOrder.ASC)
+        .setScroll(new TimeValue(60000))
+        .setQuery(qb)
+        .setSize(100).get(); //max of 100 hits will be returned for each scroll
+//Scroll until no hits are returned
+do {
+    for (SearchHit hit : scrollResp.getHits().getHits()) {
+        //Handle the hit...
+    }
+
+    scrollResp = client.prepareSearchScroll(scrollResp.getScrollId()).setScroll(new TimeValue(60000)).execute().actionGet();
+} while(scrollResp.getHits().getHits().length != 0); // Zero hits mark the end of the scroll and the while loop.
+```
 
 # 相关问题
 
