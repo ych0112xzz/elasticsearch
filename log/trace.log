@@ -1,0 +1,839 @@
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:27:17 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:27:24 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:27:24 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:27:24 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:27:24 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:10 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:29:10 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:29:10 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:29:11 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:29:11 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:29:11 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:29:14 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:14 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:14 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:29:14 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:29:45 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:29:48 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:48 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:29:48 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:29:48 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:34:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:34:18 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:34:18 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:34:18 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:34:18 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:35:08 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:35:11 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:35:11 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:35:11 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:35:11 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:36:37 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:36:40 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:36:40 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:36:40 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:36:40 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:37:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:37:55 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:37:55 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:37:55 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:37:55 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:46:14 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:46:14 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:46:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:46:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:46:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:46:15 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:46:21 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:46:21 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:46:21 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:46:21 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:46:23 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{q3LUphoXTb-QsygqfRfBeQ}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 13:46:23 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:46:23 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:46:23 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:46:23 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:46:23 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 13:58:41 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 13:58:44 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:58:44 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:58:44 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 13:58:44 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 13:58:45 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:58:46 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{VUpK4MNORTW73jp_o6Y1kA}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 13:58:46 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:58:46 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:58:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:58:46 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 13:58:46 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{CGqnEfTvShG_XMccwLpgOQ}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:11:52 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:11:58 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:11:58 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:11:58 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:11:58 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:12:00 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:12:00 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:12:00 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{M5uQXOTlSH6Xp3ihrzTVtw}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:12:00 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:12:00 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:12:00 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:12:01 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:12:01 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:12:01 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:12:01 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:12:01 (TransportService.java:920) [5][indices:data/write/index] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:12:01 (TransportService.java:912) [5][indices:data/write/index] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{HNeUGmcqTlajn6ZfPM26HA}{192.168.8.90}{127.0.0.1:9300}]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:23:35 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:23:43 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:23:43 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:23:43 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:23:43 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:23:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:23:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:23:46 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{1rSW2Yv4TaaH0FREpzxbYQ}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:23:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:23:46 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:28:04 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:48:21 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.xpack.XPackPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.xpack.XPackPlugin]
+TRACE [main] 2018-04-13 14:48:21 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:48:22 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:48:22 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:48:22 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:48:22 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:48:22 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:48:28 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:48:28 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:48:28 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:48:28 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:48:31 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{F1D2QJVERwmUu1Gcpze-Uw}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:48:31 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:48:31 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [main] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:48:31 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:48:31 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:48:31 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.xpack.XPackPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.xpack.XPackPlugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:50:42 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:50:46 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:50:46 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:50:46 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:50:46 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:50:47 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:50:47 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:50:47 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{nVcZdbHDQdOEZeBBzrGjMg}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:50:48 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:50:48 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [main] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:50:48 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:50:48 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:50:48 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:50:48 (TransportService.java:920) [5][indices:data/write/index] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:50:49 (TransportService.java:912) [5][indices:data/write/index] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.xpack.XPackPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.xpack.XPackPlugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:53:34 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:53:37 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:53:37 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:53:37 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:53:37 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:53:39 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{QBMgD8JwSySo-gJrv_RCAg}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:53:39 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:53:39 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [main] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:53:39 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:53:39 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:53:39 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:53:39 (TransportService.java:920) [5][indices:data/read/get] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:53:39 (TransportService.java:912) [5][indices:data/read/get] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.xpack.XPackPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.xpack.XPackPlugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 14:54:16 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 14:54:20 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:54:20 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:54:20 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 14:54:20 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:54:22 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{8EHVCJITRJybVZAdB9WZAw}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 14:54:22 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:54:22 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [main] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:54:22 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 14:54:22 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:54:22 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:54:22 (TransportService.java:920) [5][indices:data/read/get] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 14:54:22 (TransportService.java:912) [5][indices:data/read/get] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.xpack.XPackPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.xpack.XPackPlugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty3Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty3Plugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.transport.Netty4Plugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.transport.Netty4Plugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.index.reindex.ReindexPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.index.reindex.ReindexPlugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.percolator.PercolatorPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.percolator.PercolatorPlugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.script.mustache.MustachePlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.script.mustache.MustachePlugin]
+TRACE [main] 2018-04-13 15:03:31 (PluginsService.java:106) plugin loaded from classpath [- Plugin information:
+Name: org.elasticsearch.join.ParentJoinPlugin
+Description: classpath plugin
+Version: NA
+Native Controller: false
+ * Classname: org.elasticsearch.join.ParentJoinPlugin]
+TRACE [main] 2018-04-13 15:03:35 (HierarchyCircuitBreakerService.java:106) parent circuit breaker with settings [parent,type=PARENT,limit=665740902/634.8mb,overhead=1.0]
+TRACE [main] 2018-04-13 15:03:35 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [request,type=MEMORY,limit=570635059/544.1mb,overhead=1.0]
+TRACE [main] 2018-04-13 15:03:35 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [fielddata,type=MEMORY,limit=570635059/544.1mb,overhead=1.03]
+TRACE [main] 2018-04-13 15:03:35 (ChildMemoryCircuitBreaker.java:81) creating ChildCircuitBreaker with settings [in_flight_requests,type=MEMORY,limit=951058432/907mb,overhead=1.0]
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 15:03:37 (TransportService.java:920) [1][internal:tcp/handshake] sent to [{#transport#-1}{Rrv3tlbTSHmUpyDhP6U-JQ}{localhost}{127.0.0.1:9300}] (timeout: [null])
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#1]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [main] 2018-04-13 15:03:37 (TransportClientNodesService.java:372) connecting to node [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 15:03:37 (TransportService.java:920) [3][internal:tcp/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 15:03:37 (TransportService.java:920) [4][internal:transport/handshake] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [30s])
+TRACE [elasticsearch[_client_][transport_client_boss][T#2]] 2018-04-13 15:03:37 (TransportService.java:912) [4][internal:transport/handshake] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 15:03:37 (TransportService.java:920) [5][indices:data/read/get] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#3]] 2018-04-13 15:03:37 (TransportService.java:912) [5][indices:data/read/get] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
+TRACE [main] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [16440] bytes, now [16440]
+TRACE [elasticsearch[_client_][transport_client_boss][T#4]] 2018-04-13 15:03:37 (ChildMemoryCircuitBreaker.java:192) [request] Adjusted breaker by [-16440] bytes, now [0]
+TRACE [elasticsearch[_client_][transport_client_boss][T#4]] 2018-04-13 15:03:37 (TransportService.java:920) [6][indices:data/write/delete] sent to [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}] (timeout: [null])
+TRACE [elasticsearch[_client_][transport_client_boss][T#4]] 2018-04-13 15:03:37 (TransportService.java:912) [6][indices:data/write/delete] received response from [{node-1}{9-82wPKHT7uqWHcE99i0qg}{9b042HHeSsCZ9DoOMwScJw}{192.168.8.90}{127.0.0.1:9300}{ml.enabled=true}]
