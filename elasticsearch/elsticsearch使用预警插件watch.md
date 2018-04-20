@@ -151,8 +151,7 @@ xpack.notification.email.account:
             host: smtp.163.com
             port: 25
             user: yourname@@163.com
-            password: password
-#password是第三方授权码
+            password: password      #password是第三方授权码
 ```
 
 
