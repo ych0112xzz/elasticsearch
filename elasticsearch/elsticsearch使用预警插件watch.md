@@ -116,7 +116,7 @@ Jira Action等，这里我们以email action为例说明。
       "email": {
         "to": "'<yourname>@example.com>'",
         "subject": "Error Monitoring Report",
-        "attachments" : {##h可选，获取附件
+        "attachments" : {##可选，获取附件
           "error_report.pdf" : {
             "reporting" : {
               "url": "http://0.0.0.0:5601/api/reporting/generate/dashboard/Error-Monitoring?_g=(time:(from:now-1d%2Fd,mode:quick,to:now))", 
